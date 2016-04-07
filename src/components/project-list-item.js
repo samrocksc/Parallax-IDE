@@ -11,9 +11,9 @@ class Project extends React.Component {
     } = this.props;
 
     return (
-      <ListItem icon="folder" onClick={onClick}>
+      <li icon="folder" onClick={onClick}>
         {children}
-      </ListItem>
+      </li>
     );
   }
 }
